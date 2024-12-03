@@ -1,0 +1,48 @@
+[
+  {
+    "@id": "urn:isbn:9780262181624",
+    "@type": [
+      "http://standards.iso.org/iso-iec/19788/-1/rc0004",
+      "http://schema.org/Book"
+    ],
+    "http://standards.iso.org/iso-iec/4932/p0001": [
+      {
+        "@value": "Illustrations are not fully described.",
+        "@language": "en"
+      },
+      {
+        "@value": "Les illustrations ne sont pas entièrement décrites.",
+        "@language": "fr"
+      },
+      {
+        "@value": "插图没有完整描述",
+        "@language": "zh"
+      }
+    ],
+    "http://standards.iso.org/iso-iec/4932/p0002": [
+      {
+        "@id": "http://standards.iso.org/iso-iec/4932/v0001#t100"
+      },
+      {
+        "@id": "http://standards.iso.org/iso-iec/4932/v0001#t110"
+      }
+    ],
+    "http://standards.iso.org/iso-iec/4932/p0003": [
+      {
+        "@list": [
+          {
+            "@id": "http://standards.iso.org/iso-iec/4932/v0002#t030"
+          },
+          {
+            "@id": "http://standards.iso.org/iso-iec/4932/v0002#t040"
+          }
+        ]
+      }
+    ],
+    "http://standards.iso.org/iso-iec/4932/p0004": [
+      {
+        "@id": "http://standards.iso.org/iso-iec/4932/v0003#t080"
+      }
+    ]
+  }
+]
