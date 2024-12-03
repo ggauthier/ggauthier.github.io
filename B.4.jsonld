@@ -1,0 +1,48 @@
+[
+  {
+    "@id": "urn:isbn:9780262181624",
+    "@type": [
+      "http://purl.iso.org/iso-iec/19788/en/InformationResource",
+      "http://schema.org/Book"
+    ],
+    "http://purl.iso.org/iso-iec/4932/en/InformationResource·accessMode": [
+      {
+        "@id": "http://purl.iso.org/iso-iec/4932/en/AccessMode#textual"
+      },
+      {
+        "@id": "http://purl.iso.org/iso-iec/4932/en/AccessMode#visual"
+      }
+    ],
+    "http://purl.iso.org/iso-iec/4932/en/InformationResource·accessModeSufficient": [
+      {
+        "@list": [
+          {
+            "@id": "http://purl.iso.org/iso-iec/4932/en/AccessModeSufficient#textual"
+          },
+          {
+            "@id": "http://purl.iso.org/iso-iec/4932/en/AccessModeSufficient#visual"
+          }
+        ]
+      }
+    ],
+    "http://purl.iso.org/iso-iec/4932/en/InformationResource·accessibilityFeature": [
+      {
+        "@id": "http://purl.iso.org/iso-iec/4932/en/AccessibilityFeature#tableOfContents"
+      }
+    ],
+    "http://purl.iso.org/iso-iec/4932/en/InformationResource·accessibilitySummary": [
+      {
+        "@value": "Illustrations are not fully described.",
+        "@language": "en"
+      },
+      {
+        "@value": "Les illustrations ne sont pas entièrement décrites.",
+        "@language": "fr"
+      },
+      {
+        "@value": "插图没有完整描述",
+        "@language": "zh"
+      }
+    ]
+  }
+]
