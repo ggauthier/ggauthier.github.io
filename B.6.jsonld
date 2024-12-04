@@ -1,5 +1,5 @@
 {
-  "@context": "https://ggauthier.github.io/afa_en.jsonld",
+  "@context": "https://standards.iso.org/iso-iec/4932/ed-1/contexts/afa_en.jsonld",
   "@id": "urn:isbn:9780262181624", 
   "@type": ["mlr:InformationResource", "schema:Book"], 
   "accessibilitySummary": {"en": "Illustrations are not fully described.", 
