@@ -1,0 +1,44 @@
+{  
+  "@context":{  
+	"mlr": "http://purl.iso.org/iso-iec/19788/en/",  
+	"schema": "http://schema.org/",  
+	"afa": "http://purl.iso.org/iso-iec/4932/en/",  
+	"résuméDLAccessibilité": { 
+                   "@id": "afa:RessourceInformationnelle·résuméDLAccessibilité",  
+                   "@container": "@language"},  
+	"modeDAccès": {
+                   "@id": "afa:RessourceInformationnelle·modeDAccès",  
+                   "@type": "@id"},  
+	"modeDAccèsSuffisant": {
+                   "@id": "afa:RessourceInformationnelle·modeDAccèsSuffisant",  
+                   "@container": "@list",  
+                   "@type": "@id"},  
+	"dispositifDAccessibilité": {
+                   "@id": "afa:RessourceInformationnelle·dispositifDAccessibilité",  
+                   "@type": "@id"},  
+	"accèsAuContrôle": {
+                   "@id": "afa:RessourceInformationnelle·accèsAuContrôle",  
+                   "@type": "@id"},  
+	"dangerDAccès": {
+                   "@id": "afa:RessourceInformationnelle·dangerDAccès",  
+                   "@type": "@id"},  
+	"APIDAccès": {
+                   "@id": "afa:RessourceInformationnelle·APIDAccès",  
+                   "@type": "@id"},  
+	"amv": "afa:ModeDAccès#",  
+	"amsv": "afa:ModeDAccèsSuffisant#",  
+	"afv": "afa:DispositifDAccessibilité#",  
+	"acv": "afa:AccèsAuContrôle#",  
+	"ahv": "afa:DangerDAccès#",  
+	"aapiv": "afa:AccèsALAPI#"    
+  },  
+  "@id": "https://gutenberg.org/cache/epub/201/pg201-images.html",  
+  "@type": ["mlr:ResourceWeb", "schema:WebContent"],  
+  "résuméDAccessibilité": {"en": "Illustrations are not described.",  
+                           "fr": "Les illustrations ne sont pas décrites."},  
+  "modeDAccès": ["amv:textuel", "amv:visuel", "amv:texteSurVisuel"],  
+  "modeDAccèsSuffisant": [["amsv:textuel", "amsv:visuel"], ["amsv:auditif"]], 
+  "dispositifDAccessibilité": "afv:déverrouillé", 
+  "accèsAuContrôle": "acv:contrôleTotalAvecLeClavierUniquement", 
+  "dangerDAccès": "ahv:aucun"    
+} 
