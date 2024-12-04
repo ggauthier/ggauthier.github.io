@@ -1,0 +1,12 @@
+{  
+  "@context": "https://standards.iso.org/iso-iec/4932/ed-1/contexts/afa_en.jsonld",  
+  "@id": "https://gutenberg.org/cache/epub/201/pg201-images.html",  
+  "@type": ["mlr:WebResource", "schema:WebContent"],  
+  "accessibilitySummary": {"en": "Illustrations are not described.",  
+                       	"fr": "Les illustrations ne sont pas décrites."},  
+  "accessMode": ["amv:textual", "amv:visual", "amv:textOnVisual"],  
+  "accessModeSufficient": [["amsv:textual", "amsv:visual"], ["amsv:auditory"]],  
+  "accessibilityFeature": "afv:unlocked", 
+  "accessibilityControl": "acv:fullKeyboardControl", 
+  "accessibilityHazard": "ahv:none"    
+} 
