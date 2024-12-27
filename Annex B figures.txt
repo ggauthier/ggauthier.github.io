@@ -266,30 +266,30 @@ JSON-LD document (English linguistic identifiers, external context)
 
 {  
   "@context":{  
-        "mlr": "http://purl.iso.org/iso-iec/19788/en/",  
-        "schema": "http://schema.org/",  
-        "afa": "http://purl.iso.org/iso-iec/4932/en/",  
-        "accessibilitySummary": {"@id": "afa:InformationResource·accessibilitySummary",  
-                                     "@container": "@language"},  
-        "accessMode": {"@id": "afa:InformationResource·accessMode",  
-                      "@type": "@id"},  
-        "accessModeSufficient": {"@id": "afa:InformationResource·accessModeSufficient",
-                                "@container": "@list",  
-                                "@type": "@id"},  
-        "accessibilityFeature": {"@id": "afa:InformationResource·accessibilityFeature",  
-                                "@type": "@id"},  
-        "accessibilityControl": {"@id": "afa:InformationResource·accessibilityControl",  
-                                "@type": "@id"},  
-        "accessibilityHazard": {"@id": "afa:InformationResource·accessibilityHazard",  
-                               "@type": "@id"},  
-         "accessibilityAPI": {"@id": "afa:InformationResource·accessibilityAPI",  
+    "mlr": "http://purl.iso.org/iso-iec/19788/en/",  
+    "schema": "http://schema.org/",  
+    "afa": "http://purl.iso.org/iso-iec/4932/en/",  
+    "accessibilitySummary": {"@id": "afa:InformationResource·accessibilitySummary",  
+                             "@container": "@language"},  
+    "accessMode": {"@id": "afa:InformationResource·accessMode",  
+                   "@type": "@id"},  
+    "accessModeSufficient": {"@id": "afa:InformationResource·accessModeSufficient",
+                             "@container": "@list",  
+                             "@type": "@id"},  
+    "accessibilityFeature": {"@id": "afa:InformationResource·accessibilityFeature",  
+                             "@type": "@id"},  
+    "accessibilityControl": {"@id": "afa:InformationResource·accessibilityControl",  
+                             "@type": "@id"},  
+    "accessibilityHazard": {"@id": "afa:InformationResource·accessibilityHazard",  
                             "@type": "@id"},  
-        "amv": "afa:AccessMode#",  
-        "amsv": "afa:AccessModeSufficient#",  
-        "afv": "afa:AccessibilityFeature#",  
-        "acv": "afa:AccessibilityControl#",  
-        "ahv": "afa:AccessibilityHazard#",  
-        "aapiv": "afa:AccessibilityAPI#"    
+    "accessibilityAPI": {"@id": "afa:InformationResource·accessibilityAPI",  
+                         "@type": "@id"},  
+    "amv": "afa:AccessMode#",  
+    "amsv": "afa:AccessModeSufficient#",  
+    "afv": "afa:AccessibilityFeature#",  
+    "acv": "afa:AccessibilityControl#",  
+    "ahv": "afa:AccessibilityHazard#",  
+    "aapiv": "afa:AccessibilityAPI#"    
   },  
   "@id": "https://gutenberg.org/cache/epub/201/pg201-images.html",  
   "@type": ["mlr:WebResource", "schema:WebContent"],  
@@ -315,7 +315,7 @@ JSON-LD document (English linguistic identifiers)
   "@id": "https://gutenberg.org/cache/epub/201/pg201-images.html",  
   "@type": ["mlr:WebResource", "schema:WebContent"],  
   "accessibilitySummary": {"en": "Illustrations are not described.",  
-                               "fr": "Les illustrations ne sont pas décrites."},  
+                           "fr": "Les illustrations ne sont pas décrites."},  
   "accessMode": ["amv:textual", "amv:visual", "amv:textOnVisual"],  
   "accessModeSufficient": [["amsv:textual", "amsv:visual"], ["amsv:auditory"]],  
   "accessibilityFeature": "afv:unlocked", 
@@ -333,37 +333,37 @@ JSON-LD document (English linguistic identifiers, external context)
 
 {  
   "@context":{  
-        "mlr": "http://purl.iso.org/iso-iec/19788/en/",  
-        "schema": "http://schema.org/",  
-        "afa": "http://purl.iso.org/iso-iec/4932/en/",  
-        "résuméDAccessibilité": { 
-                  "@id": "afa:RessourceInformationnelle·résuméDLAccessibilité",  
-                   "@container": "@language"},  
-        "modeDAccès": {
-                   "@id": "afa:RessourceInformationnelle·modeDAccès",  
-                   "@type": "@id"},  
-        "modeDAccèsSuffisant": {
-                   "@id": "afa:RessourceInformationnelle·modeDAccèsSuffisant",  
-                   "@container": "@list",  
-                   "@type": "@id"},  
-        "dispositifDAccessibilité": {
-                   "@id": "afa:RessourceInformationnelle·dispositifDAccessibilité",  
-                   "@type": "@id"},  
-        "accèsAuContrôle": {
-                   "@id": "afa:RessourceInformationnelle·accèsAuContrôle",  
-                   "@type": "@id"},  
-        "dangerDAccès": {
-                   "@id": "afa:RessourceInformationnelle·dangerDAccès",  
-                   "@type": "@id"},  
-        "APIDAccès": {
-                   "@id": "afa:RessourceInformationnelle·APIDAccès",  
-                   "@type": "@id"},  
-        "amv": "afa:ModeDAccès#",  
-        "amsv": "afa:ModeDAccèsSuffisant#",  
-        "afv": "afa:DispositifDAccessibilité#",  
-        "acv": "afa:AccèsAuContrôle#",  
-        "ahv": "afa:DangerDAccès#",  
-        "aapiv": "afa:AccèsALAPI#"    
+    "mlr": "http://purl.iso.org/iso-iec/19788/en/",  
+    "schema": "http://schema.org/",  
+    "afa": "http://purl.iso.org/iso-iec/4932/en/",  
+    "résuméDAccessibilité": { 
+             "@id": "afa:RessourceInformationnelle·résuméDLAccessibilité",  
+             "@container": "@language"},  
+    "modeDAccès": {
+             "@id": "afa:RessourceInformationnelle·modeDAccès",  
+             "@type": "@id"},  
+    "modeDAccèsSuffisant": {
+              "@id": "afa:RessourceInformationnelle·modeDAccèsSuffisant",  
+              "@container": "@list",  
+              "@type": "@id"},  
+    "dispositifDAccessibilité": {
+              "@id": "afa:RessourceInformationnelle·dispositifDAccessibilité",  
+              "@type": "@id"},  
+    "accèsAuContrôle": {
+              "@id": "afa:RessourceInformationnelle·accèsAuContrôle",  
+              "@type": "@id"},  
+    "dangerDAccès": {
+              "@id": "afa:RessourceInformationnelle·dangerDAccès",  
+              "@type": "@id"},  
+    "APIDAccès": {
+                "@id": "afa:RessourceInformationnelle·APIDAccès",  
+                "@type": "@id"},  
+    "amv": "afa:ModeDAccès#",  
+    "amsv": "afa:ModeDAccèsSuffisant#",  
+    "afv": "afa:DispositifDAccessibilité#",  
+    "acv": "afa:AccèsAuContrôle#",  
+    "ahv": "afa:DangerDAccès#",  
+    "aapiv": "afa:AccèsALAPI#"    
   },  
   "@id": "https://gutenberg.org/cache/epub/201/pg201-images.html",  
   "@type": ["mlr:ResourceWeb", "schema:WebContent"],  
