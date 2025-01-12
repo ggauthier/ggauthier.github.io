@@ -1,12 +1,12 @@
-{  
-  "@context": "https://standards.iso.org/iso-iec/4932/ed-1/contexts/afa_fr.jsonld",  
-  "@id": "https://gutenberg.org/cache/epub/201/pg201-images.html",  
-  "@type": ["mlr:ResourceWeb", "schema:WebContent"],  
-  "résuméDAccessibilité": {"en": "Illustrations are not described.",  
-                           "fr": "Les illustrations ne sont pas décrites."},  
-  "modeDAccès": ["amv:textuel", "amv:visuel", "amv:texteSurVisuel"],  
-  "modeDAccèsSuffisant": [["amsv:textuel", "amsv:visuel"], ["amsv:auditif"]], 
-  "dispositifDAccessibilité": "afv:déverrouillé", 
-  "accèsAuContrôle": "acv:contrôleTotalAvecLeClavierUniquement", 
-  "dangerDAccès": "ahv:aucun"   
+{
+  "@context": "https://standards.iso.org/iso-iec/4932/ed-1/contexts/afa_fr.jsonld",
+  "@id": "https://gutenberg.org/cache/epub/201/pg201-images.html",
+  "@type": ["mlr:ResourceWeb", "schema:WebContent"],
+  "résuméDLAccessibilité": {"en": "Illustrations are not described.",
+                            "fr": "Les illustrations ne sont pas décrites."},
+  "modeDAccès": ["amv:textuel", "amv:visuel", "amv:texteSurVisuel"],
+  "modeDAccèsSuffisant": [["amsv:textuel", "amsv:visuel"], ["amsv:auditif"]],
+  "dispositifDAccessibilité": "afv:déverrouillé",
+  "accèsAuContrôle": "acv:contrôleTotalAvecLeClavierUniquement",
+  "dangerDAccès": "ahv:aucun"
 } 
