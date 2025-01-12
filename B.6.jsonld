@@ -1,11 +1,11 @@
 {
   "@context": "https://standards.iso.org/iso-iec/4932/ed-1/contexts/afa_en.jsonld",
-  "@id": "urn:isbn:9780262181624", 
-  "@type": ["mlr:InformationResource", "schema:Book"], 
-  "accessibilitySummary": {"en": "Illustrations are not fully described.", 
-            "fr": "Les illustrations ne sont pas entièrement décrites.", 
-            "zh": "插图没有完整描述"}, 
-  "accessMode": ["amv:textual", "amv:visual"], 
-  "accessModeSufficient": ["amsv:textual", "amsv:visual"], 
-  "accessibilityFeature": "afv:tableOfContents" 
+  "@id": "urn:isbn:9780262181624",
+  "@type": ["mlr:InformationResource", "schema:Book"],
+  "accessibilitySummary": {"en": "Illustrations are not fully described.",
+            "fr": "Les illustrations ne sont pas entièrement décrites.",
+            "zh": "插图没有完整描述"},
+  "accessMode": ["amv:textual", "amv:visual"],
+  "accessModeSufficient": ["amsv:textual", "amsv:visual"],
+  "accessibilityFeature": "afv:tableOfContents"
 }
