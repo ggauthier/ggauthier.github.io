@@ -1,6 +1,6 @@
 [
   {
-    "@id": "urn:isbn:9780262181624", 
+    "@id": "urn:isbn:9780262181624",
     "@type": [
       "http://standards.iso.org/iso-iec/19788/-1/rc0004",
       "http://schema.org/Book"
