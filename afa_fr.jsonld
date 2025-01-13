@@ -5,7 +5,7 @@
     "afa": "http://purl.iso.org/iso-iec/4932/en/",  
     "résuméDAccessibilité": {"@id": "afa:RessourceInformationnelle·résuméDLAccessibilité",  
                              "@container": "@language"},  
-	  "modeDAccès": {"@id": "afa:RessourceInformationnelle·modeDAccès",  
+    "modeDAccès": {"@id": "afa:RessourceInformationnelle·modeDAccès",  
                    "@type": "@id"},  
 	  "modeDAccèsSuffisant": {"@id": "afa:RessourceInformationnelle·modeDAccèsSuffisant",  
                             "@container": "@list",  
