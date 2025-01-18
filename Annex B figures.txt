@@ -1,6 +1,6 @@
 JSON-LD code for the different figures in Annex B
 2025-01-04
-
+=================================================
 
 {
   "@context": {
